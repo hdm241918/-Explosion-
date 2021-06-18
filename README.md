@@ -1,13 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
+
+
+ using System.Collections;
+ using System.Collections.Generic;
 using UnityEngine;
 
 public class Boom : MonoBehaviour
 {
-
-    public float radius = 10f;   //定义一个要添加爆炸力的半径
-    public float power = 600f;   //定义一个爆炸力
-    public GameObject particle;   //得到播放粒子特效的物体
+   public float radius = 10f;   //定义一个要添加爆炸力的半径
+   public float power = 600f;   //定义一个爆炸力
+   public GameObject particle;   //得到播放粒子特效的物体
 
     private void Start()
     {
